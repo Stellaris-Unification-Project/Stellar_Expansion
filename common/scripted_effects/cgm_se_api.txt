@@ -19,7 +19,7 @@ check_planet_bonus_buildings_se = {
 	if = {
 		limit = {
 			planet = {
-				any_pop = {
+				any_owned_pop = {
 					OR = { has_modifier = pop_enslaved_livestock has_modifier = pop_purging_processing }
 				}
 			}

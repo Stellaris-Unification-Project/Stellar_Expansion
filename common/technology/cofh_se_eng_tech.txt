@@ -107,18 +107,11 @@ tech_cofh_se_protocol_droids = {
 	weight_modifier = {
 		modifier = {
 			factor = 0
-			OR = {
-				has_valid_civic = "civic_fanatic_purifiers"
-				has_valid_civic = "civic_hive_devouring_swarm"
-				has_valid_civic = "civic_machine_terminator"
-			}
+			is_homicidal = yes
 		}
 		modifier = {
 			factor = 0.5
-			OR = {
-				has_ethic = "ethic_spiritualist"
-				has_ethic = "ethic_fanatic_spiritualist"
-			}
+			is_spiritualist = yes
 		}
 		modifier = {
 			factor = 2

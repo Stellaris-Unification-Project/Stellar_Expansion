@@ -94,7 +94,7 @@ tech_cofh_se_repeatable_ship_upgrade_upkeep = {
 
 	modifier = {
 		country_ship_upgrade_cost_mult = -0.03
-		ship_upkeep_mult = -0.03
+		ships_upkeep_mult = -0.03
 	}
 
 	weight_modifier = {

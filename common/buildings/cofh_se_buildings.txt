@@ -97,10 +97,7 @@ building_cofh_se_retail_center = {
 			factor = 4
 			from = {
 				owner = {
-					OR = {
-						has_ethic = ethic_egalitarian
-						has_ethic = ethic_fanatic_egalitarian
-					}
+					is_egalitarian = yes
 				}
 			}
 		}
@@ -169,10 +166,7 @@ building_cofh_se_holo_arena = {
 			factor = 4
 			from = {
 				owner = {
-					OR = {
-						has_ethic = ethic_militarist
-						has_ethic = ethic_fanatic_militarist
-					}
+					is_militarist = yes
 				}
 			}
 		}
@@ -242,7 +236,7 @@ building_cofh_se_robot_maintenance = {
 		cofh_se_req_no_local = yes
 
 		planet = {
-			count_pops = {
+			count_owned_pop = {
 				limit = {
 					is_robot_pop = yes
 				}
@@ -312,7 +306,7 @@ building_cofh_se_xeno_food = {
 
 		potential = {
 			planet = {
-				any_pop = {
+				any_owned_pop = {
 					OR = {
 						has_modifier = pop_enslaved_livestock
 						has_modifier = pop_purging_processing

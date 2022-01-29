@@ -182,11 +182,7 @@ tech_cofh_se_psi_diplomatic_corps = {
 	weight_modifier = {
 		modifier = {
 			factor = 0
-			OR = {
-				has_valid_civic = "civic_fanatic_purifiers"
-				has_valid_civic = "civic_hive_devouring_swarm"
-				has_valid_civic = "civic_machine_terminator"
-			}
+			is_homicidal = yes
 		}
 		modifier = {
 			factor = 0
@@ -249,10 +245,7 @@ tech_cofh_se_psi_diplomatic_corps = {
 		factor = 5 # very rare tech
 		modifier = {
 			factor = 1.5
-			OR = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
-			}
+			is_spiritualist = yes
 		}
 		modifier = {
 			factor = 1.25
@@ -280,25 +273,15 @@ tech_cofh_se_xeno_confidence = {
 	weight_modifier = {
 		modifier = {
 			factor = 0
-			OR = {
-				has_valid_civic = "civic_fanatic_purifiers"
-				has_valid_civic = "civic_hive_devouring_swarm"
-				has_valid_civic = "civic_machine_terminator"
-			}
+			is_homicidal = yes
 		}
 		modifier = {
 			factor = 0.50
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
+			is_xenophobe = yes
 		}
 		modifier = {
 			factor = 4
-			OR = {
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-			}
+			is_xenophile = yes
 		}
 		modifier = {
 			factor = 1.25
@@ -365,25 +348,15 @@ tech_cofh_se_xeno_negotiation = {
 	weight_modifier = {
 		modifier = {
 			factor = 0
-			OR = {
-				has_valid_civic = "civic_fanatic_purifiers"
-				has_valid_civic = "civic_hive_devouring_swarm"
-				has_valid_civic = "civic_machine_terminator"
-			}
+			is_homicidal = yes
 		}
 		modifier = {
 			factor = 0.50
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
+			is_xenophobe = yes
 		}
 		modifier = {
 			factor = 4
-			OR = {
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-			}
+			is_xenophile = yes
 		}
 		modifier = {
 			factor = 1.25
