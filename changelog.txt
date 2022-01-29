@@ -1,0 +1,903 @@
+CoFH - Stellar Expansion
+Author: King Lemming
+
+2018-05-25
+Minor adjustments to the Grand Retail Center and Holosseum - they'll be more useful for more Empires now.
+
+Also, new Countermeasure technologies.
+
+New Technologies:
+	Marauder Countermeasures:
+		Military Theory
+		+20% Damage to Marauders
+		+20% Damage to Awakened Marauders
+
+	Gray Tempest Countermeasures:
+		Materials
+		+20% Damage to Gray Tempest Vessels
+
+--------------------------------------------------------------------------------
+
+2018-05-22
+Updated for 2.1.0 [Niven].
+
+This is basically a straight port.
+
+One minor bugfix to a tech check and there's been a couple of small files added to assist with cross-mod scripting.
+
+--------------------------------------------------------------------------------
+
+2018-02-25
+Removed Energy and Food Silos to match the vanilla game. I'm going to be evaluating the balance of this. There's a chance that they will return in some form.
+
+Readded a couple of engineering repeatable techs, with minor modifications.
+
+--------------------------------------------------------------------------------
+
+2018-02-24
+Updated for 2.0.0 [Cherryh].
+
+This is basically a straight port, but with the 2.0 changes in place.
+
+Tech costs have been adjusted (stuff all seems way more expensive, there may be rebalancing).
+
+Army Attachments and Starport Modules have been removed as they no longer exist.
+
+Techs where the respective modifier has been removed have also been removed. (Shield regen, notably.)
+
+The Diplomatic Hub and Fleet Support Complex (and their corresponding SRs, techs, etc) have been removed for now, pending balance evaluation. So much has changed with 2.0 that I was worried about leaving them in without properly understanding the ramifications.
+
+I'll be revisiting this in the coming weeks to tweak and adjust things once I have a better sense of the balance, but it should be completely playable right now.
+
+--------------------------------------------------------------------------------
+
+2017-12-11:
+Updated for 1.9.0 [Boulle].
+
+No actual changes - just version incrementing.
+
+--------------------------------------------------------------------------------
+
+2017-09-21:
+Updated for 1.8.0 [Capek].
+
+For the most part, this is a straight port.
+
+Machine Empires have been disallowed from accessing theme-inappropriate buildings and techs.
+
+A new, theme-appropriate research speed civic has been added for Machine Empires.
+
+--------------------------------------------------------------------------------
+
+2017-06-15:
+Updated for 1.7.2 [Bradbury].
+
+There are lots of changes - a new army attachment, new civics, technologies, rebalances, and some removed technologies.
+This will be retroactively updated when I have the chance to do so. :)
+
+--------------------------------------------------------------------------------
+
+2017-05-13:
+New buildings. :)
+
+New Buildings:
+	Fleet Support Command:
+		Empire-Unique
+		+30 Naval Capacity
+		-4% Ship Upkeep Cost
+		+100% Planetary Fortification
+
+		*Allows for the construction of 3 Fleet Support Complex buildings via a Strategic Resource.
+
+	Fleet Support Complex:
+		Planet-Unique
+		+15 Naval Capacity
+		-2% Ship Upkeep Cost
+		+50% Planetary Fortification
+
+		*Limited to 3 through Strategic Resources.
+
+New Technologies:
+	Planetside Support Operations:
+		Military Theory
+		Allows for the Construction of Fleet Support Command and Fleet Support Complexes.
+
+Changed Technologies:
+	Applied Fleet Logistics:
+		Materials
+		+10% Ship Repair Speed
+		-3% Ship Upkeep Cost
+		Repeatable (5x)
+
+--------------------------------------------------------------------------------
+
+2017-05-11:
+Minor update.
+
+Building weights have been adjusted so that AI makes better use of them.
+
+Deep Scanning Algorithms artwork updated.
+Xeno Nutriment Factory artwork updated.
+
+Robot Maintenance Facility now takes 540 days to build (down from 720), and produces 2 Minerals and 1 Engineering Research.
+Xeno Nutriment Factory now provides an additional +15% Planet Food if any population is being Processed or is Livestock.
+
+New Technologies:
+	Robot Assembly Optimization:
+		Industry
+		+10% Robot Build Speed
+		Repeatable (10x)
+
+--------------------------------------------------------------------------------
+
+2017-05-09:
+Updated for 1.6 [Adams].
+
+Pop Growth Time has been changed to Pop Growth Speed where applicable.
+
+--------------------------------------------------------------------------------
+
+2017-05-08:
+Rebalanced some of the new ethos-advantaged buildings. Basically -2 Ethos-derived Unity and -1 Civic-derived Research.
+
+Also greatly improved the visuals of the Diplomatic Hub and Diplomatic Embassy.
+
+Changed Buildings:
+	Diplomatic Hub:
+		Empire-Unique
+		+2 Influence
+		+10% Trust Growth
+		+30% Planetary Border Extrusion
+		+200 Max Influence
+
+		*Allows for the construction of 3 Diplomatic Embassy buildings via a Strategic Resource.
+
+	Diplomatic Embassy:
+		Planet-Unique
+		+1 Influence
+		+5% Trust Growth
+		+15% Planetary Border Extrusion
+		+100 Max Influence
+
+		*Limited to 3 through Strategic Resources.
+
+	Grand Retail Complex (aka Space Ikea):
+		Planet-Unique
+		-5% Building Cost
+		-15% Consumer Goods Cost
+
+		*+2 Unity if Egalitarian
+		**+2 Unity and +1 Engineering Research with Functional Architecture Civic
+
+	Holosseum (aka Virtual Combat Arena 2.0):
+		Planet-Unique
+		+10% Army Damage
+		+5% Happiness
+		+5% Governing Ethics Attraction
+
+		*+2 Unity if Militarist
+		**+2 Unity and +1 Society Research with Warrior Culture Civic
+
+--------------------------------------------------------------------------------
+
+2017-05-07:
+More things! Updating this for a final "1.5" version.
+
+Diplomatic Hubs have been rebalanced. This will probably mess with existing saves - sorry!
+Essentially, this allows for a reasonable boost to the Influence game without drastically favoring wide Empires or allowing scaling to get out of hand.
+
+New Buildings:
+	Diplomatic Hub:
+		Empire-Unique
+		+2 Influence
+		+10% Trust Growth
+		+200 Max Influence
+
+		*Allows for the construction of 3 Diplomatic Embassy buildings via a Strategic Resource.
+
+	Diplomatic Embassy:
+		Planet-Unique*
+		+1 Influence
+		+5% Trust Growth
+		+100 Max Influence
+
+		*Limited to 3 through Strategic Resources.
+
+	Agri-Repositories (I,II,III):
+		Planet-Unique
+		+50/75/100 Food Storage, +1 Food Adjacency Boost
+		Additionally, the level II and III versions reduce growth time by 5 and 10%, respectively.
+
+	Grand Retail Complex (aka Space Ikea):
+		Planet-Unique
+		-5% Building Cost
+		-15% Consumer Goods Cost
+
+		*+4 Unity if Egalitarian
+		**+2 Unity and +2 Engineering Research with Functional Architecture Civic
+
+	Holosseum (aka Virtual Combat Arena 2.0):
+		Planet-Unique
+		+10% Army Damage
+		+5% Happiness
+		+5% Governing Ethics Attraction
+
+		*+4 Unity if Militarist
+		**+2 Unity and +2 Society Research with Warrior Culture Civic
+
+--------------------------------------------------------------------------------
+
+2017-04-10:
+More post-1.5 adjustments.
+
+There is now only a single level of Betharian Mining Network.
+
+Some technology icons have been adjusted.
+
+New Technologies:
+	Multiphasic Scanning:
+		Field Manipulation
+		+15% Survey Speed
+		+15% Anomaly Research Speed
+
+Changed Technologies:
+	Intensive Ecological Engineering
+		New Worlds
+		+10% Terraforming Speed
+		-5% Clear Blocker Time
+		Repeatable (5x)
+
+	Shipyard Assembly Coordination:
+		Voidcraft
+		+10% Ship Build Speed
+		Repeatable (10x)
+
+--------------------------------------------------------------------------------
+
+2017-04-08:
+Updated for patch 1.5 [Banks].
+
+Buildings should have proper planetary restrictions.
+
+Building - Diplomatic Hub now costs 350 Minerals, generates 1 Influence, has a 5 Energy Upkeep, and has -15% Ethics Attraction.
+
+Ethics buildings adn their associated technologies have been temporarily removed. I need to figure out a good way to balance these for 1.5.
+
+Tech - Intensive Ecological Engineering now increases Terraforming speed by 10% per level. Tile Blocker cost reduction now 3% per level, down from 5%.
+Tech - Inertial Compensators is now 15% per level, up from 10%.
+
+Anti-Fallen Empire Countermeasure technologies have been reduced to 15%, down from 20%.
+
+--------------------------------------------------------------------------------
+
+2016-12-13:
+Minor tweaks for balance.
+
+-Repeatable techs are now marked as Tier 3, to match the base game.
+
+Building - Diplomatic Hub now costs 350 Minerals, generates 0.5 Influence, and has +10% Ethics Divergence.
+Building - Xeno Nutriment Factory now generates 4 Food.
+
+Tech - Orbital Mineral Processing now has Tech - Mineral Processing as a prerequisite.
+
+--------------------------------------------------------------------------------
+
+2016-12-07:
+Added a couple of new Spaceport Modules. Low-hanging fruit, but should help round out the functionality of Spaceports.
+
+New Spaceport Modules:
+	Atmospheric Manipulator:
+		+10% Habitability on Planet
+
+	Mining Terminal:
+		+3 Minerals
+		+10% Minerals on Planet
+
+New Technologies:
+	Orbital Mineral Processing:
+		Industry
+		Unlocks Spaceport Module - Mining Terminal
+
+--------------------------------------------------------------------------------
+
+2016-12-06:
+More updates for improved 1.4 gameplay. In particular, alternative uses for local resources.
+	Xeno Nutriment Factory:
+		The thought here is that Alien Pets might be easily domesticated, but could well be unfit for zoos. And they might be delicious.
+
+	Betharian Mining Network:
+		Betharian Stone is not a super-mineral, the thought is that it could be consumed locally for extra-powerful extraction machinery.
+
+Countermeasure technologies have been boosted to +20%. This makes the technology a bit more relevant and also helps to combat the power gap introduced in 1.4 when Repeatable Technology was made much more expensive.
+
+Buildings have been adjusted further to match the 1.4 paradigm:
+	-Empire Unique buildings are limited to the Capital world.
+	-Empire Unique buildings have had their cost normalized.
+	-Influence Cost has been removed from all non-Empire Unique buildings.
+	-Buildings have been reworked so that AI and sectors make much better use of them.
+
+The Pacifist Empire Unique building (Concord Assembly) and its associated technology have new icons.
+
+New Buildings:
+	Betharian Mining Network I-IV:
+		+4/6/8/10 Minerals
+		Requires Betharian Stone
+
+	Xeno Nutriment Factory:
+		Planet-Unique
+		+2 Society Research
+		+8 Food Produced
+		+10% Food Output on Planet
+		Requires Alien Pets
+
+--------------------------------------------------------------------------------
+
+2016-12-05:
+Updated for 1.4 [Kennedy].
+
+Repeatable technology costs have been changed to match the base game.
+
+Capacitor Banks adjusted to match Mineral Silos:
+	-Now Planet Unique
+	-Energy storage doubled (500/750/1000 to 1000/1500/2000)
+	-Adjacency bonus of 3rd tier reduced to 1
+
+Changed Technologies:
+	Harmonic Replenishment:
+		Field Manipulation
+		+10% Shield Regeneration (+5%)
+		Repeatable (5x)
+
+--------------------------------------------------------------------------------
+
+2016-11-27:
+Localization overhaul. Placeholder localization files for all languages.
+
+Updated thumbnail.
+
+Changed Technologies:
+	Intensive Ecological Engineering:
+		New Worlds
+		-2% Terraforming Cost (-3%)
+		-5% Tile Blocker Cost
+		-5% Tile Blocker Time
+		Repeatable (5x)
+
+--------------------------------------------------------------------------------
+
+2016-11-08:
+New crisis-countermeasure technology for Fallen Empires. Works the same way as the other 3 - you'll have to engage them in combat and then complete the Special Project.
+
+New Technologies:
+	Fallen Empire Countermeasures:
+		Voidcraft
+		+15% Damage to Fallen Empire Ships
+
+--------------------------------------------------------------------------------
+
+2016-11-05:
+New tech! Didn't know about this modifier either. 5% might be too low given that Shield Capacitors are 50%, but I'm being careful not to overdo it.
+
+New Technologies:
+	Harmonic Replenishment:
+		Field Manipulation
+		+5% Shield Regeneration
+		Repeatable (5x)
+
+--------------------------------------------------------------------------------
+
+2016-11-01:
+Three new crisis-countermeasure technologies.
+
+To discover these, your fleets must first engage the crisis fleets in combat (win or lose, just have to engage). After a brief waiting period, there will be a prompt for a Special Project. When completed, a technology will be partially unlocked which gives bonus damage against the crisis enemies.
+
+The technology will remain in the list as a valid research option, and defeating enemy ships will also advance the research.
+
+These won't trivialize the endgame crises by any means - you'll still need massive fleets to take them down. The technologies just invoke the trope of "finding a weakness," which is something that seems reasonable given the galaxy-disrupting nature of a crisis.
+
+New Technologies:
+	Machine Consciousness Countermeasures:
+		Voidcraft
+		+15% Damage to Machine Consciousness Vessels
+
+	Extradimensional Invader Countermeasures:
+		Particles
+		+15% Damage to Extradimensional Invaders
+
+	Prethoryn Sourge Countermeasures:
+		Biology
+		+15% Damage to Prethoryn Creatures
+
+--------------------------------------------------------------------------------
+
+2016-10-27:
+New tech! Not sure how I overlooked this modifier.
+
+Personally, I think it's a bit silly that Strike Craft actually have pilots,
+but that's how they are presented in the game, so I'm just staying consistent.
+
+New Technologies:
+	Inertial Compensators:
+		Voidcraft
+		+10% Strike Craft Speed
+		Repeatable (5x)
+
+--------------------------------------------------------------------------------
+
+2016-10-25:
+Added German localization.
+Improved icon graphics for repeatable technologies.
+
+New Technologies:
+	Positronic Algorithms:
+		Computation
+		+1% Research Speed
+		+3% Robot Production Output
+		Repeatable (5x)
+
+Bugfixes:
+	Capacitor Bank III now has +2 Energy Adjacency Bonus to match the Mineral Silo III.
+
+--------------------------------------------------------------------------------
+
+2016-10-20:
+This update streamlines and changes things for the 1.3 [Heinlein] update. There's been a LOT of internal refactoring, so it won't be compatible with 1.2.x saves, and a lot of things have been removed, due to changes to the base game. In particular:
+
+-FTL Improvement Techs have been removed.
+-Ship Components have been removed.
+-Strategic Resource Buildings have been removed.
+
+So for now, we're back to Buildings + Technologies. I'm going to look into FTL Improvement again once I see how the new techs play, but the *major* end-game issue - the lack of Jump Drive for all FTL types, has now been addressed. There's a good chance of the FTL stuff returning in an addon. Strategic Resource stuff might also return, in a separate module. I'll be adding new Ship Components once again, but I want to be sure that what I'm adding fits with the 1.3 paradigm.
+
+Tech costs have been adjusted across the board to match the 1.3 values.
+
+-Capacitor Banks have been updated to provide an Adjacency Bonus to Energy, providing parity with Mineral Silos in 1.3.
+-The Ministry of Intelligence and Bureau of Vigilance have had their effects swapped. Militaristic and Xenophobe Ethos had their base abilities swapped in 1.3, such that the buildings as they existed would have added directly to their ability rather than providing a synergistic effect.
+-Terraforming stations have been removed from Adaptive Offworld Construction, as they no longer exist.
+
+Changed Buildings:
+	Capacitor Bank I/II/III:
+		+500/750/1000 Energy Stored
+		+1 Energy Adjacency Bonus
+
+	Ministry of Intelligence:
+		Empire-Unique
+		+2 Maximum Rivalries
+
+	Bureau of Vigilance:
+		Empire-Unique
+		+50% Rivalry Influence Gain
+
+Changed Technologies:
+	Adaptive Offworld Construction:
+		Voidcraft
+		-5% Spaceport Module Cost
+		-5% Spaceport Build Cost
+		-5% Frontier Outpost Cost
+		-5% Mining Station Cost
+		-5% Military Station Cost
+		Repeatable (5x)
+
+	Applied Fleet Logistics:
+		Materials
+		+10% Ship Repair Speed
+		-5% Ship Repair Cost
+		-5% Ship Upkeep Cost
+		Repeatable (5x)
+
+	Shipyard Assembly Coordination:
+		Voidcraft
+		+10% Ship Build Speed
+		Repeatable (5x)
+
+	Adaptive Training Regimen:
+		Military Theory
+		+10% Army Build Speed
+		Repeatable (5x)
+
+--------------------------------------------------------------------------------
+
+2016-07-30:
+Alright, so this update adds ship components! Because that's always fun. :)
+
+However, many of these components are limited by FTL type. In doing this, I'm treating Jump Drive as essentially Wormhole's "unique" tech. The Psi-Jump drive is problematic, but without changing vanilla, not much can be done. For the sake of parity, I have added two new levels of Wormhole Modulators.
+
+The general balance point and justification is this:
+Hyperspace = Improved sensor technology from hypernavigation requirements.
+Warp = Fastest sublight ships, from mastery of warp field manipulation.
+Wormhole = More durable vessels to survive wormhole travel.
+
+New Ship Parts:
+	Science Labs:
+		+10/20/30/40% Survey Speed
+		+10/20/30/40% Anomaly Research Speed
+		+5/10/15/20% Anomaly Discovery Chance
+
+	Hyper-Linked Sensors:
+		Sensors
+		Range: 60
+		+10 Ship Accuracy
+		**Only available to Hyperspace civilizations.
+
+	Micro-Warp Thrusters:
+		Thrusters
+		+50% Ship Combat Speed
+		+50% Ship Speed
+		+25 Ship Evasion
+		**Only available to Warp civilizations.
+
+	Linked Wormhole Modulator:
+		FTL Drive
+		+5% Ship Hull Points
+		-25% Emergency FTL Damage
+		**Only available to Wormhole civilizations.
+
+	Stabilized Wormhole Modulator:
+		FTL Drive
+		+10% Ship Hull Points
+		-50% Emergency FTL Damage
+		**Only available to Wormhole civilizations.
+
+New Auras:
+	Hyper-Sensor Locus:
+		+5 Ship Accuracy
+		+10% Ship Weapon Range
+		**Only available to Hyperspace civilizations.
+
+	Micro-Warp Field:
+		+25% Ship Combat Speed
+		+25% Ship Speed
+		+5 Ship Evasion
+		**Only available to Warp civilizations.
+
+	Hull Integrity Matrix:
+		+10% Ship Hull Points
+		**Only available to Wormhole civilizations.
+
+--------------------------------------------------------------------------------
+
+2016-07-28:
+Added Russian localization.
+Diplomatic Hub now also provides +100 Maximum Influence.
+More internal refactoring. Oh, and there's a git repo now.
+
+--------------------------------------------------------------------------------
+
+2016-07-14:
+Couple of minor bugfixes.
+
+--------------------------------------------------------------------------------
+
+2016-07-13:
+Terraforming technologies have been removed from the mod.
+The Xeno Nutrient Factory is now 10 Food produced and +10% Food on planet.
+Also, there has been some internal refactoring.
+
+--------------------------------------------------------------------------------
+
+2016-07-11:
+New buildings - energy storage and food production. :)
+Seemed a bit unfair that Xenophobes couldn't make use of alien pets in any way.
+Also, Energy should be storable too. There might be upcoming features that require lots of it.
+
+New Technologies:
+	Xeno Nutriment Factory:
+		Biology
+		Unlocks Building: Xeno Nutriment Factory
+		**Not available for Xenophile or Fanatic Xenophile Ethos
+
+New Buildings:
+	Capacitor Bank I/II/III:
+		+500/750/1000 Energy Stored
+
+	Xeno Nutriment Factory:
+		Planet-Unique
+		+10 Food Produced
+		+5% Food Output on Planet
+
+--------------------------------------------------------------------------------
+
+2016-07-09:
+Two new buildings - Empire-Uniques for Xenophiles and Pacifists.
+This gives them a bit of flavor and restores some of their pre-1.2 gameplay and should help them with their respective playstyles. Also synergizes well with other ethos.
+
+New Technologies:
+	The Final Frontier:
+		Rare, Statecraft
+		Unlocks Building: Frontier Science Institute
+		**Requires Xenophile or Fanatic Xenophile Ethos
+
+	Galactic Concordance:
+		Rare, Statecraft
+		Unlocks Building: Concord Assembly
+		**Requires Pacifist or Fanatic Pacifist Ethos
+
+New Buildings:
+	Frontier Science Institute:
+		Empire-Unique
+		+2 Physics Produced
+		+8 Social Produced
+		+2 Engineering Produced
+		+10% Society Research Speed on Empire
+
+	Concord Assembly:
+		Empire-Unique
+		-20% Growth Time on Empire
+
+--------------------------------------------------------------------------------
+
+2016-07-08:
+New building to make use of Terraforming resources without actually terraforming. :)
+Also a couple of bugfixes.
+
+New Buildings:
+	Climate Moderation Reactor:
+		Planet-Unique
+		+20% Habitability on Planet
+
+Changed Technologies:
+	Deep Scanning Algorithms:
+		Computing
+		+25% Anomaly Discovery Chance (+15%)
+		Removed Anomaly Failure Risk (Vanilla scoping issue - it didn't work.)
+
+Bugfix:
+	Cold Barren planets can now actually be terraformed.
+
+2016-07-07a:
+Two new buildings and some Terraforming balancing.
+These buildings open up some gameplay types for ethos combos. Xenophile + Militarist is now more interesting, as is Xenophobe + Pacifist.
+
+The reason for the terraforming changes is because I want to leave more non-habitable planets open for Strategic Resource purposes. Also, the way the game generates those planets, they are WAY outside the habitable zone. Barren and Cold Barren worlds typically are not. Terraforming uninhabitable worlds can be a tremendous power boost to certain ethos, so I had to rein it in slightly to keep things reasonable. Lastly, Gaia worlds do have a lot of power with Xenophile builds, so taking another 5 years to create should keep them from being too out of control.
+
+New Technologies:
+	Central Intelligence:
+		Rare, Statecraft
+		Unlocks Building: Ministry of Intelligence
+		**Requires Militarist or Fanatic Militarist Ethos
+
+	Eternal Vigilance:
+		Rare, Statecraft
+		Unlocks Building: Bureau of Vigilance
+		**Requires Xenophobe or Fanatic Xenophobe Ethos
+
+New Buildings:
+	Ministry of Intelligence:
+		Empire-Unique
+		+50% Rivalry Influence Gain
+
+	Bureau of Vigilance:
+		Empire-Unique
+		+2 Maximum Rivalries
+
+Changed Mechanics:
+	Molten and Frozen worlds can no longer be terraformed.
+	Barren worlds can now be terraformed into Desert worlds.
+		(2 Liquid, 4 Gas)
+	Cold Barren worlds can now be terraformed into Arctic worlds.
+		(4 Liquid, 2 Gas)
+	Gaia Terraformation now requires 3000 Energy (+500).
+	Gaia Terraformation now requires 20 Years (+5).
+
+--------------------------------------------------------------------------------
+
+2016-07-07:
+This is the first round of a bit of rebalancing for the various ethos.
+Spiritualism in particular got hit pretty hard with the happiness loss in 1.2.
+
+New Technologies:
+	Cosmic Reflection:
+		Rare, Statecraft
+		Unlocks Building: Monument to Creation
+		**Requires Spiritualist or Fanatic Spiritualist Ethos
+
+New Buildings:
+	Monument to Creation:
+		Empire-Unique
+		+10% Happiness on Empire
+
+	Robot Maintenance Facility:
+		Planet-Unique
+		+10% Robot Production Output on Planet
+
+2016-07-06:
+Balancing adjustments and a new tech. Sorry, some numbers were just a little too high.
+
+New Technologies:
+	Protocol Droids:
+		Rare, Industry
+		+1 Influence
+		+10% Trade Attractiveness
+		+10% Trust Gain
+
+Changed Buildings:
+	Satramene Infusion Plant:
+		Empire-Unique
+		-5% Xenophobia on Planet and Empire (-5%)
+		+10% Trade Attractiveness
+		+10% Trust Gain
+
+Changed Technologies:
+	Psi Diplomatic Corps:
+		Rare, Psionic
+		+2 Influence
+		+20% Trade Attractiveness (-10%)
+		+20% Trust Gain (-10%)
+
+--------------------------------------------------------------------------------
+
+2016-07-05:
+Mod has been renamed - Stellar Expansion!
+
+For those of you familiar with my Minecraft work, you'll get the significance of that.
+
+Why rename it though? Internally the code has been modularized to split off features that players may want individually or may not want at all. How and when exactly this split will happen is yet to be determined. Suffice it to say FTL Improvements and Terraforming will definitely be available separately.
+
+As far as this patch, let's try and address Influence a bit - it's a problem.
+
+New Buildings:
+	Diplomatic Hub:
+		+1 Influence
+		+15% Ethics Divergence (Yes, this is intentional!)
+		Requires Planetary Capital
+		Requires 15 Pops
+		**Will NOT automatically be built by sectors, due to divergence.
+
+New Technologies:
+	Galactic Prominence:
+		+1 Influence
+		Unlocks Building: Diplomatic Hub
+
+Changed Technologies:
+	Intensive Ecological Engineering:
+		New Worlds
+		-5% Terraforming Cost (-5%)
+		-5% Tile Blocker Cost (-5%)
+		-5% Tile Blocker Time (-5%)
+		Repeatable (5x)
+
+--------------------------------------------------------------------------------
+
+2016-07-04a:
+More stuff!
+
+New Buildings:
+	Neutronium Manufactory:
+		Empire-Unique
+		+10% Energy Credits on Planet and Empire
+		+25% Research Speed (Materials)
+
+New Technologies:
+
+Social:
+	Battlefield Leadership:
+		Military Theory
+		+15% Army Morale
+
+	Adaptive Training Regimen:
+		Military Theory
+		+5% Army Build Speed
+		Repeatable (10x)
+
+	Procurement Optimization:
+		Military Theory
+		-5% Army Build Cost
+		Repeatable (5x)
+
+	Applied Military Logistics:
+		Military Theory
+		-5% Army Upkeep
+		Repeatable (5x)
+
+Changed Mechanics:
+	Atmospheric Purification now requires 2500 Energy (+250).
+	Gaia Terraformation now requires 2500 Energy (+250).
+
+--------------------------------------------------------------------------------
+
+2016-07-04:
+Initial release.
+
+New Buildings:
+	Satramene Infusion Plant:
+		Empire-Unique
+		-10% Xenophobia on Planet and Empire
+		+10% Trade Attractiveness
+		+10% Trust Gain
+
+	Zro Diffusion Station:
+		Empire-Unique
+		+25% Planet Fortification Toughness on Planet and Empire
+		+50% Planet Sensor Range on Planet and Empire
+		+25% Research Speed (Psionics)
+
+New Technologies:
+
+Engineering:
+	Adaptive Fleet Construction:
+		Voidcraft
+		-5% Ship Build Cost
+		-5% Ship Upgrade Cost
+		Repeatable (5x)
+
+	Adaptive Offworld Construction:
+		Voidcraft
+		-5% Spaceport Module Cost
+		-5% Spaceport Build Cost
+		-5% Frontier Outpost Cost
+		-5% Mining Station Cost
+		-5% Terraforming Station Cost
+		-5% Military Station Cost
+		Repeatable (5x)
+
+	Shipyard Assembly Coordination:
+		Voidcraft
+		+5% Ship Build Speed
+		Repeatable (10x)
+
+	Applied Fleet Logistics:
+		Materials
+		+5% Ship Repair Speed
+		-5% Ship Repair Cost
+		-5% Ship Upkeep Cost
+		Repeatable (5x)
+
+Physics:
+	Deep Scanning Algorithms:
+		Computing
+		+10% Anomaly Discovery Chance
+		-10% Anomaly Failure Chance
+
+	Hypernavigation Optimization:
+		Particles
+		-0.05% FTL Windup Time
+		Repeatable (5x)
+		**Only available to Hyperspace civilizations.
+
+	Warp Field Optimization:
+		Field Manipulation
+		+20% Warp Range
+		+20% Warp Speed
+		-10% Warp Cooldown
+		Repeatable (5x)
+		**Only available to Warp civilizations.
+
+Society (Diplomacy):
+	Psi Diplomatic Corps:
+		Rare, Psionic
+		+2 Influence
+		+30% Trade Attractiveness
+		+30% Trust Gain
+
+	Xeno Negotiations:
+		Statecraft
+		+15% Trade Attractiveness
+
+	Xeno Confidence:
+		Statecraft
+		+15% Trust Gain
+
+Society (Terraforming):
+	Atmospheric Purification:
+		New Worlds
+		Allows Tomb and Toxic Worlds to be terraformed into habitable ones.
+		(15 Years, 2250 Energy, combined 6 Terraforming Liquid/Gas)
+
+	Habitable World Terraforming:
+		New Worlds
+		Allows Barren, Cold Barren, Frozen, and Molten worlds to be terraformed into habitable ones.
+		(20 Years, 3000 Energy, 3 Terraforming Liquid/Gas)
+
+	Gaia World Terraforming:
+		New Worlds
+		Allows habitable worlds to be terraformed into Gaia worlds.
+		(15 Years, 2250 Energy, 2 Terraforming Liquid/Gas, Engos Vapor, Pitharan Dust)
+
+	Intensive Ecological Engineering:
+		New Worlds
+		-10% Terraforming Cost
+		-10% Tile Blocker Cost
+		-10% Tile Blocker Time
+		Repeatable (5x)
+
+--------------------------------------------------------------------------------
